@@ -1,5 +1,5 @@
-const textInput = document.querySelector(".text-input");
-const output = document.querySelector(".output");
+const textInput = document.querySelector("#name-input");
+const output = document.querySelector("#name-output");
 
 textInput.addEventListener("input", (event) => {
     const space = event.currentTarget.value.trim();
